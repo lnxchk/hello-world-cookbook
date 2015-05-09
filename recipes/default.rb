@@ -5,3 +5,4 @@
 # Copyright (c) 2014 The Authors, All Rights Reserved.
 
 log 'Hello World!'
+log 'Ohai!'
