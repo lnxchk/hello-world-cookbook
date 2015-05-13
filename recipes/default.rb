@@ -6,6 +6,9 @@
 
 log 'Hello World!'
 
-remote_file "/tmp/large-file.tar.gz" do
-    source "http://www.example.org/large-file.tar.gz"
+directory "/var/lib/foo" do
+  owner "root"
+  group "root"
+  mode 644
+  action :create
 end
